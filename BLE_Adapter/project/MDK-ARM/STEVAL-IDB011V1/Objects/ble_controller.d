@@ -1,0 +1,16 @@
+.\objects\ble_controller.o: ..\..\..\Middlewares\ST\BLECNTR\Src\ble_controller.c
+.\objects\ble_controller.o: ..\..\..\Middlewares\ST\BLECNTR\Inc\ble_controller.h
+.\objects\ble_controller.o: ..\..\..\Middlewares\ST\hal\Inc\system_util.h
+.\objects\ble_controller.o: ..\..\..\Middlewares\ST\hal\Inc\compiler.h
+.\objects\ble_controller.o: D:\MDK5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\ble_controller.o: ..\..\..\Drivers\Peripherals_Drivers\inc\rf_driver_ll_rng.h
+.\objects\ble_controller.o: ..\..\..\Drivers\CMSIS\Device\ST\BlueNRG_LP\Include\bluenrg_lpx.h
+.\objects\ble_controller.o: ..\..\..\Drivers\CMSIS\Device\ST\BlueNRG_LP\Include\bluenrg_lp.h
+.\objects\ble_controller.o: ..\..\..\Drivers\CMSIS\Include\core_cm0plus.h
+.\objects\ble_controller.o: ..\..\..\Drivers\CMSIS\Include\cmsis_version.h
+.\objects\ble_controller.o: ..\..\..\Drivers\CMSIS\Include\cmsis_compiler.h
+.\objects\ble_controller.o: ..\..\..\Drivers\CMSIS\Include\cmsis_armcc.h
+.\objects\ble_controller.o: ..\..\..\Drivers\CMSIS\Include\mpu_armv7.h
+.\objects\ble_controller.o: ..\..\..\Middlewares\ST\hal\Inc\system_util.h
+.\objects\ble_controller.o: ..\..\..\Drivers\Peripherals_Drivers\inc\rf_driver_ll_bus.h
+.\objects\ble_controller.o: ..\..\..\Drivers\CMSIS\Device\ST\BlueNRG_LP\Include\bluenrg_lpx.h

@@ -1,0 +1,10 @@
+D:\BLE_Adapter\upper\BLE_Adapter_Upper_Computer\BLE_Adapter_Upper_Computer\bin\Debug\BLE_Adapter_Upper_Computer.exe.config
+D:\BLE_Adapter\upper\BLE_Adapter_Upper_Computer\BLE_Adapter_Upper_Computer\bin\Debug\BLE_Adapter_Upper_Computer.exe
+D:\BLE_Adapter\upper\BLE_Adapter_Upper_Computer\BLE_Adapter_Upper_Computer\bin\Debug\BLE_Adapter_Upper_Computer.pdb
+D:\BLE_Adapter\upper\BLE_Adapter_Upper_Computer\BLE_Adapter_Upper_Computer\obj\Debug\BLE_Adapter_Upper_Computer.csproj.AssemblyReference.cache
+D:\BLE_Adapter\upper\BLE_Adapter_Upper_Computer\BLE_Adapter_Upper_Computer\obj\Debug\BLE_Adapter_Upper_Computer.Main.resources
+D:\BLE_Adapter\upper\BLE_Adapter_Upper_Computer\BLE_Adapter_Upper_Computer\obj\Debug\BLE_Adapter_Upper_Computer.Properties.Resources.resources
+D:\BLE_Adapter\upper\BLE_Adapter_Upper_Computer\BLE_Adapter_Upper_Computer\obj\Debug\BLE_Adapter_Upper_Computer.csproj.GenerateResource.cache
+D:\BLE_Adapter\upper\BLE_Adapter_Upper_Computer\BLE_Adapter_Upper_Computer\obj\Debug\BLE_Adapter_Upper_Computer.csproj.CoreCompileInputs.cache
+D:\BLE_Adapter\upper\BLE_Adapter_Upper_Computer\BLE_Adapter_Upper_Computer\obj\Debug\BLE_Adapter_Upper_Computer.exe
+D:\BLE_Adapter\upper\BLE_Adapter_Upper_Computer\BLE_Adapter_Upper_Computer\obj\Debug\BLE_Adapter_Upper_Computer.pdb

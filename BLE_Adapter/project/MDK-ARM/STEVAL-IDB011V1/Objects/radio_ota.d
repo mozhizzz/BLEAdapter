@@ -1,0 +1,42 @@
+.\objects\radio_ota.o: ..\..\..\Middlewares\ST\hal\Src\radio_ota.c
+.\objects\radio_ota.o: D:\keil\Keil MDK v5.34\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\radio_ota.o: ..\..\..\Middlewares\ST\hal\Inc\radio_ota.h
+.\objects\radio_ota.o: ..\..\..\Drivers\BSP\Common\Inc\bluenrg_lp_evb_config.h
+.\objects\radio_ota.o: ..\..\..\Drivers\CMSIS\Device\ST\BlueNRG_LP\Include\system_BlueNRG_LP.h
+.\objects\radio_ota.o: ..\..\..\Middlewares\ST\hal\Inc\compiler.h
+.\objects\radio_ota.o: ..\..\..\Drivers\CMSIS\Device\ST\BlueNRG_LP\Include\bluenrg_lpx.h
+.\objects\radio_ota.o: ..\..\..\Drivers\CMSIS\Device\ST\BlueNRG_LP\Include\bluenrg_lp.h
+.\objects\radio_ota.o: ..\..\..\Drivers\CMSIS\Include\core_cm0plus.h
+.\objects\radio_ota.o: ..\..\..\Drivers\CMSIS\Include\cmsis_version.h
+.\objects\radio_ota.o: ..\..\..\Drivers\CMSIS\Include\cmsis_compiler.h
+.\objects\radio_ota.o: ..\..\..\Drivers\CMSIS\Include\cmsis_armcc.h
+.\objects\radio_ota.o: ..\..\..\Drivers\CMSIS\Include\mpu_armv7.h
+.\objects\radio_ota.o: ..\..\..\Middlewares\ST\hal\Inc\system_util.h
+.\objects\radio_ota.o: ../../../Drivers/BSP/STEVAL-IDB011V1/Inc/steval_idb011V1_config.h
+.\objects\radio_ota.o: ..\..\..\Drivers\CMSIS\Device\ST\BlueNRG_LP\Include\bluenrg_lpx.h
+.\objects\radio_ota.o: ..\..\..\Drivers\Peripherals_Drivers\Inc\rf_driver_ll_bus.h
+.\objects\radio_ota.o: ..\..\..\Drivers\CMSIS\Device\ST\BlueNRG_LP\Include\bluenrg_lpx.h
+.\objects\radio_ota.o: ..\..\..\Drivers\Peripherals_Drivers\Inc\rf_driver_ll_exti.h
+.\objects\radio_ota.o: ..\..\..\Drivers\CMSIS\Device\ST\BlueNRG_LP\Include\bluenrg_lpx.h
+.\objects\radio_ota.o: ..\..\..\Drivers\Peripherals_Drivers\Inc\rf_driver_ll_gpio.h
+.\objects\radio_ota.o: ..\..\..\Drivers\CMSIS\Device\ST\BlueNRG_LP\Include\bluenrg_lpx.h
+.\objects\radio_ota.o: ..\..\..\Drivers\Peripherals_Drivers\Inc\rf_driver_ll_pwr.h
+.\objects\radio_ota.o: ..\..\..\Drivers\CMSIS\Device\ST\BlueNRG_LP\Include\bluenrg_lpx.h
+.\objects\radio_ota.o: ..\..\..\Drivers\Peripherals_Drivers\Inc\rf_driver_ll_usart.h
+.\objects\radio_ota.o: ..\..\..\Drivers\CMSIS\Device\ST\BlueNRG_LP\Include\bluenrg_lpx.h
+.\objects\radio_ota.o: ..\..\..\Drivers\Peripherals_Drivers\Inc\rf_driver_ll_i2c.h
+.\objects\radio_ota.o: ..\..\..\Drivers\CMSIS\Device\ST\BlueNRG_LP\Include\bluenrg_lpx.h
+.\objects\radio_ota.o: ..\..\..\Drivers\Peripherals_Drivers\Inc\rf_driver_ll_spi.h
+.\objects\radio_ota.o: ..\..\..\Drivers\CMSIS\Device\ST\BlueNRG_LP\Include\bluenrg_lpx.h
+.\objects\radio_ota.o: ../../../Drivers/BSP/STEVAL-IDB011V1/Inc/bluenrg_lp_evb_led.h
+.\objects\radio_ota.o: ..\..\..\Drivers\BSP\Common\Inc\bluenrg_lp_evb_config.h
+.\objects\radio_ota.o: ../../../Drivers/BSP/STEVAL-IDB011V1/Inc/bluenrg_lp_evb_button.h
+.\objects\radio_ota.o: ../../../Drivers/BSP/STEVAL-IDB011V1/Inc/bluenrg_lp_evb_i2c.h
+.\objects\radio_ota.o: ../../../Drivers/BSP/STEVAL-IDB011V1/Inc/bluenrg_lp_evb_spi.h
+.\objects\radio_ota.o: ../../../Drivers/BSP/STEVAL-IDB011V1/Inc/bluenrg_lp_evb_com.h
+.\objects\radio_ota.o: D:\keil\Keil MDK v5.34\ARM\ARMCC\Bin\..\include\stdio.h
+.\objects\radio_ota.o: ../../../Drivers/BSP/STEVAL-IDB011V1/Inc/bluenrg_lp_evb_mic.h
+.\objects\radio_ota.o: ../../../Drivers/BSP/STEVAL-IDB011V1/Inc/bluenrg_lp_evb_io.h
+.\objects\radio_ota.o: ..\..\..\Drivers\BSP\Components\lsm6dsox_STdC\driver\lsm6dsox_reg.h
+.\objects\radio_ota.o: D:\keil\Keil MDK v5.34\ARM\ARMCC\Bin\..\include\math.h
+.\objects\radio_ota.o: ..\..\..\Drivers\BSP\Components\lps22hh_STdC\driver\lps22hh_reg.h

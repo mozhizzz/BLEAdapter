@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32413.511
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BLE_Adapter_Upper_Computer", "BLE_Adapter_Upper_Computer.csproj", "{04AD0E2F-1F18-427D-A356-21BA415EABC3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{04AD0E2F-1F18-427D-A356-21BA415EABC3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04AD0E2F-1F18-427D-A356-21BA415EABC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04AD0E2F-1F18-427D-A356-21BA415EABC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04AD0E2F-1F18-427D-A356-21BA415EABC3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D6EC4A0F-D896-4B58-92E7-2ADB3AB59436}
+	EndGlobalSection
+EndGlobal

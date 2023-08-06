@@ -1,0 +1,16 @@
+.\objects\aes_hw.o: ..\..\..\Middlewares\ST\cryptolib\aes_hw.c
+.\objects\aes_hw.o: ..\..\..\Middlewares\ST\cryptolib\inc\crypto.h
+.\objects\aes_hw.o: ..\..\..\Middlewares\ST\cryptolib\inc\config.h
+.\objects\aes_hw.o: D:\MDK5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\aes_hw.o: D:\MDK5\ARM\ARMCC\Bin\..\include\stdlib.h
+.\objects\aes_hw.o: ..\..\..\Middlewares\ST\cryptolib\inc\Common/types.h
+.\objects\aes_hw.o: ..\..\..\Middlewares\ST\cryptolib\inc\Common/macros.h
+.\objects\aes_hw.o: ..\..\..\Middlewares\ST\cryptolib\inc\Common/err_codes.h
+.\objects\aes_hw.o: ..\..\..\Middlewares\ST\cryptolib\inc\Common/err_codes.h
+.\objects\aes_hw.o: ..\..\..\Middlewares\ST\cryptolib\inc\Common/sk.h
+.\objects\aes_hw.o: ..\..\..\Middlewares\ST\cryptolib\inc\AES/aes.h
+.\objects\aes_hw.o: ..\..\..\Middlewares\ST\cryptolib\inc\AES/Common/aes_low_level.h
+.\objects\aes_hw.o: ..\..\..\Middlewares\ST\cryptolib\inc\AES/Common/aes_common.h
+.\objects\aes_hw.o: ..\..\..\Middlewares\ST\cryptolib\inc\AES/ECB/aes_ecb.h
+.\objects\aes_hw.o: ..\..\..\Middlewares\ST\cryptolib\inc\AES/CMAC/aes_cmac.h
+.\objects\aes_hw.o: ..\..\..\Middlewares\ST\AESMGR\Inc\aes_manager.h

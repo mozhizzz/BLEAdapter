@@ -1,0 +1,6 @@
+--cpu Cortex-M0+ --diag_suppress=L6312,L6314,L6329,L1215
+".\main.o"
+--diag_suppress 6312,6314,6329,1215 --strict --scatter ".\BlueNRG_LP.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\Listings\BLE_Adapter.map" -o .\BLE_Adapter.axf
