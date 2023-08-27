@@ -1,4 +1,4 @@
-.\objects\ble_tick.o: ..\..\Src\ble\ble_tick.c
+.\objects\ble_tick.o: ..\..\periphers\ble_tick.c
 .\objects\ble_tick.o: ..\..\..\Drivers\Peripherals_Drivers\inc\rf_driver_hal_vtimer.h
 .\objects\ble_tick.o: D:\MDK5\ARM\ARMCC\Bin\..\include\stdint.h
 .\objects\ble_tick.o: ..\..\..\Drivers\Peripherals_Drivers\inc\rf_driver_ll_timer.h
@@ -27,5 +27,5 @@
 .\objects\ble_tick.o: ..\..\..\Middlewares\ST\NVMDB\Inc\nvm_db.h
 .\objects\ble_tick.o: ..\..\..\Middlewares\ST\BLE_Application\layers_inc\link_layer.h
 .\objects\ble_tick.o: ..\..\..\Middlewares\ST\BLE_Application\layers_inc\bluenrg_lp_gap.h
-.\objects\ble_tick.o: ..\..\Inc\ble\ble_state.h
-.\objects\ble_tick.o: ..\..\Inc\ble\ble_init.h
+.\objects\ble_tick.o: ..\..\periphers\ble_state.h
+.\objects\ble_tick.o: ..\..\periphers\ble_init.h

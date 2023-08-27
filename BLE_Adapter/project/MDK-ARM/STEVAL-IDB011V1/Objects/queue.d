@@ -4,7 +4,7 @@
 .\objects\queue.o: ..\..\..\Middlewares\ST\FreeRTOS\Source\include\FreeRTOS.h
 .\objects\queue.o: D:\MDK5\ARM\ARMCC\Bin\..\include\stddef.h
 .\objects\queue.o: D:\MDK5\ARM\ARMCC\Bin\..\include\stdint.h
-.\objects\queue.o: ..\..\Inc\FreeRTOSConfig.h
+.\objects\queue.o: ..\..\application\FreeRTOSConfig.h
 .\objects\queue.o: ..\..\..\Middlewares\ST\FreeRTOS\Source\include\projdefs.h
 .\objects\queue.o: ..\..\..\Middlewares\ST\FreeRTOS\Source\include\portable.h
 .\objects\queue.o: ..\..\..\Middlewares\ST\FreeRTOS\Source\include\deprecated_definitions.h

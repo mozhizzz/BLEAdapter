@@ -13,7 +13,7 @@
 .\objects\rf_driver_hal_dma.o: ..\..\..\Middlewares\ST\hal\Inc\compiler.h
 .\objects\rf_driver_hal_dma.o: ..\..\..\Drivers\CMSIS\Device\ST\BlueNRG_LP\Include\system_BlueNRG_LP.h
 .\objects\rf_driver_hal_dma.o: ..\..\..\Drivers\CMSIS\Device\ST\BlueNRG_LP\Include\bluenrg_lpx.h
-.\objects\rf_driver_hal_dma.o: ..\..\Inc\ble\bluenrg_lp_hal_conf.h
+.\objects\rf_driver_hal_dma.o: ..\..\periphers\bluenrg_lp_hal_conf.h
 .\objects\rf_driver_hal_dma.o: ..\..\..\Drivers\Peripherals_Drivers\inc\rf_driver_hal_dma.h
 .\objects\rf_driver_hal_dma.o: ..\..\..\Drivers\Peripherals_Drivers\inc\rf_driver_hal_def.h
 .\objects\rf_driver_hal_dma.o: ..\..\..\Drivers\CMSIS\Device\ST\BlueNRG_LP\Include\bluenrg_lpx.h

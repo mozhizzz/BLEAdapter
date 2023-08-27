@@ -1,0 +1,10 @@
+.\objects\ble_service.o: ..\..\periphers\ble_service.c
+.\objects\ble_service.o: ..\..\..\Middlewares\ST\Bluetooth_LE\Inc\bluenrg_lp_api.h
+.\objects\ble_service.o: ..\..\..\Middlewares\ST\Bluetooth_LE\Inc\bluenrg_lp_gatt.h
+.\objects\ble_service.o: ..\..\..\Middlewares\ST\Bluetooth_LE\Inc\ble_status.h
+.\objects\ble_service.o: D:\MDK5\ARM\ARMCC\Bin\..\include\stdint.h
+.\objects\ble_service.o: ..\..\..\Middlewares\ST\hal\Inc\system_util.h
+.\objects\ble_service.o: ..\..\..\Middlewares\ST\hal\Inc\compiler.h
+.\objects\ble_service.o: ..\..\..\Middlewares\ST\Bluetooth_LE\Inc\bluenrg_lp_stack.h
+.\objects\ble_service.o: ..\..\..\Middlewares\ST\Bluetooth_LE\Inc\bluenrg_lp_events.h
+.\objects\ble_service.o: ..\..\periphers\ble_service.h

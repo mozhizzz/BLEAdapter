@@ -2,7 +2,7 @@
 .\objects\port.o: ..\..\..\Middlewares\ST\FreeRTOS\Source\include\FreeRTOS.h
 .\objects\port.o: D:\MDK5\ARM\ARMCC\Bin\..\include\stddef.h
 .\objects\port.o: D:\MDK5\ARM\ARMCC\Bin\..\include\stdint.h
-.\objects\port.o: ..\..\Inc\FreeRTOSConfig.h
+.\objects\port.o: ..\..\application\FreeRTOSConfig.h
 .\objects\port.o: ..\..\..\Middlewares\ST\FreeRTOS\Source\include\projdefs.h
 .\objects\port.o: ..\..\..\Middlewares\ST\FreeRTOS\Source\include\portable.h
 .\objects\port.o: ..\..\..\Middlewares\ST\FreeRTOS\Source\include\deprecated_definitions.h

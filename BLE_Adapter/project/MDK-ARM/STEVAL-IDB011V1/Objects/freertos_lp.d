@@ -2,7 +2,7 @@
 .\objects\freertos_lp.o: ..\..\..\Middlewares\ST\FreeRTOS\Source\include\FreeRTOS.h
 .\objects\freertos_lp.o: D:\MDK5\ARM\ARMCC\Bin\..\include\stddef.h
 .\objects\freertos_lp.o: D:\MDK5\ARM\ARMCC\Bin\..\include\stdint.h
-.\objects\freertos_lp.o: ..\..\Inc\FreeRTOSConfig.h
+.\objects\freertos_lp.o: ..\..\application\FreeRTOSConfig.h
 .\objects\freertos_lp.o: ..\..\..\Middlewares\ST\FreeRTOS\Source\include\projdefs.h
 .\objects\freertos_lp.o: ..\..\..\Middlewares\ST\FreeRTOS\Source\include\portable.h
 .\objects\freertos_lp.o: ..\..\..\Middlewares\ST\FreeRTOS\Source\include\deprecated_definitions.h

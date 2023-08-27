@@ -1,6 +1,6 @@
-.\objects\flash.o: ..\..\Src\flash\flash.c
+.\objects\flash.o: ..\..\periphers\flash.c
 .\objects\flash.o: D:\MDK5\ARM\ARMCC\Bin\..\include\string.h
-.\objects\flash.o: ..\..\Inc\flash\flash.h
+.\objects\flash.o: ..\..\periphers\flash.h
 .\objects\flash.o: ..\..\..\Drivers\Peripherals_Drivers\inc\rf_driver_hal.h
 .\objects\flash.o: ..\..\..\Drivers\Peripherals_Drivers\inc\rf_driver_ll_system.h
 .\objects\flash.o: ..\..\..\Drivers\CMSIS\Device\ST\BlueNRG_LP\Include\bluenrg_lpx.h
@@ -15,7 +15,7 @@
 .\objects\flash.o: ..\..\..\Middlewares\ST\hal\Inc\compiler.h
 .\objects\flash.o: ..\..\..\Drivers\CMSIS\Device\ST\BlueNRG_LP\Include\system_BlueNRG_LP.h
 .\objects\flash.o: ..\..\..\Drivers\CMSIS\Device\ST\BlueNRG_LP\Include\bluenrg_lpx.h
-.\objects\flash.o: ..\..\Inc\ble\bluenrg_lp_hal_conf.h
+.\objects\flash.o: ..\..\periphers\bluenrg_lp_hal_conf.h
 .\objects\flash.o: ..\..\..\Drivers\Peripherals_Drivers\inc\rf_driver_hal_dma.h
 .\objects\flash.o: ..\..\..\Drivers\Peripherals_Drivers\inc\rf_driver_hal_def.h
 .\objects\flash.o: ..\..\..\Drivers\CMSIS\Device\ST\BlueNRG_LP\Include\bluenrg_lpx.h

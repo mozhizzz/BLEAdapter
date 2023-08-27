@@ -3,7 +3,7 @@
 .\objects\list.o: ..\..\..\Middlewares\ST\FreeRTOS\Source\include\FreeRTOS.h
 .\objects\list.o: D:\MDK5\ARM\ARMCC\Bin\..\include\stddef.h
 .\objects\list.o: D:\MDK5\ARM\ARMCC\Bin\..\include\stdint.h
-.\objects\list.o: ..\..\Inc\FreeRTOSConfig.h
+.\objects\list.o: ..\..\application\FreeRTOSConfig.h
 .\objects\list.o: ..\..\..\Middlewares\ST\FreeRTOS\Source\include\projdefs.h
 .\objects\list.o: ..\..\..\Middlewares\ST\FreeRTOS\Source\include\portable.h
 .\objects\list.o: ..\..\..\Middlewares\ST\FreeRTOS\Source\include\deprecated_definitions.h

@@ -1,4 +1,4 @@
-.\objects\at.o: ..\..\Src\AT\at.c
+.\objects\at.o: ..\..\protocols\at.c
 .\objects\at.o: D:\MDK5\ARM\ARMCC\Bin\..\include\string.h
 .\objects\at.o: D:\MDK5\ARM\ARMCC\Bin\..\include\stdio.h
 .\objects\at.o: D:\MDK5\ARM\ARMCC\Bin\..\include\stdlib.h
@@ -16,7 +16,7 @@
 .\objects\at.o: ..\..\..\Middlewares\ST\hal\Inc\compiler.h
 .\objects\at.o: ..\..\..\Drivers\CMSIS\Device\ST\BlueNRG_LP\Include\system_BlueNRG_LP.h
 .\objects\at.o: ..\..\..\Drivers\CMSIS\Device\ST\BlueNRG_LP\Include\bluenrg_lpx.h
-.\objects\at.o: ..\..\Inc\ble\bluenrg_lp_hal_conf.h
+.\objects\at.o: ..\..\periphers\bluenrg_lp_hal_conf.h
 .\objects\at.o: ..\..\..\Drivers\Peripherals_Drivers\inc\rf_driver_hal_dma.h
 .\objects\at.o: ..\..\..\Drivers\Peripherals_Drivers\inc\rf_driver_hal_def.h
 .\objects\at.o: ..\..\..\Drivers\CMSIS\Device\ST\BlueNRG_LP\Include\bluenrg_lpx.h
@@ -53,9 +53,9 @@
 .\objects\at.o: ..\..\..\Middlewares\ST\Bluetooth_LE\Inc\ble_status.h
 .\objects\at.o: ..\..\..\Middlewares\ST\hal\Inc\system_util.h
 .\objects\at.o: ..\..\..\Middlewares\ST\BLE_Application\layers_inc\link_layer.h
-.\objects\at.o: ..\..\Inc\usart\usart_init.h
-.\objects\at.o: ..\..\Inc\ble\ble_init.h
+.\objects\at.o: ..\..\periphers\usart_init.h
+.\objects\at.o: ..\..\periphers\ble_init.h
 .\objects\at.o: ..\..\..\Middlewares\ST\Bluetooth_LE\Inc\bluenrg_lp_events.h
-.\objects\at.o: ..\..\Inc\ble\ble_state.h
-.\objects\at.o: ..\..\Inc\flash\flash.h
-.\objects\at.o: ..\..\Inc\AT\at.h
+.\objects\at.o: ..\..\periphers\ble_state.h
+.\objects\at.o: ..\..\periphers\flash.h
+.\objects\at.o: ..\..\protocols\at.h

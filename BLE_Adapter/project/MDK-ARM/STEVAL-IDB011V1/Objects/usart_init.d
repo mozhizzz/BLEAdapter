@@ -1,4 +1,4 @@
-.\objects\usart_init.o: ..\..\Src\usart\usart_init.c
+.\objects\usart_init.o: ..\..\periphers\usart_init.c
 .\objects\usart_init.o: D:\MDK5\ARM\ARMCC\Bin\..\include\string.h
 .\objects\usart_init.o: ..\..\..\Drivers\Peripherals_Drivers\inc\rf_driver_hal.h
 .\objects\usart_init.o: ..\..\..\Drivers\Peripherals_Drivers\inc\rf_driver_ll_system.h
@@ -14,7 +14,7 @@
 .\objects\usart_init.o: ..\..\..\Middlewares\ST\hal\Inc\compiler.h
 .\objects\usart_init.o: ..\..\..\Drivers\CMSIS\Device\ST\BlueNRG_LP\Include\system_BlueNRG_LP.h
 .\objects\usart_init.o: ..\..\..\Drivers\CMSIS\Device\ST\BlueNRG_LP\Include\bluenrg_lpx.h
-.\objects\usart_init.o: ..\..\Inc\ble\bluenrg_lp_hal_conf.h
+.\objects\usart_init.o: ..\..\periphers\bluenrg_lp_hal_conf.h
 .\objects\usart_init.o: ..\..\..\Drivers\Peripherals_Drivers\inc\rf_driver_hal_dma.h
 .\objects\usart_init.o: ..\..\..\Drivers\Peripherals_Drivers\inc\rf_driver_hal_def.h
 .\objects\usart_init.o: ..\..\..\Drivers\CMSIS\Device\ST\BlueNRG_LP\Include\bluenrg_lpx.h
@@ -45,5 +45,5 @@
 .\objects\usart_init.o: ..\..\..\Drivers\Peripherals_Drivers\inc\rf_driver_hal_tim_ex.h
 .\objects\usart_init.o: ..\..\..\Drivers\Peripherals_Drivers\inc\rf_driver_hal_uart.h
 .\objects\usart_init.o: ..\..\..\Drivers\Peripherals_Drivers\inc\rf_driver_hal_uart_ex.h
-.\objects\usart_init.o: ..\..\Inc\usart\usart_init.h
-.\objects\usart_init.o: ..\..\Inc\flash\flash.h
+.\objects\usart_init.o: ..\..\periphers\usart_init.h
+.\objects\usart_init.o: ..\..\periphers\flash.h

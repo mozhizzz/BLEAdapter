@@ -1,4 +1,4 @@
-.\objects\ble_db.o: ..\..\Src\ble\ble_db.c
+.\objects\ble_db.o: ..\..\periphers\ble_db.c
 .\objects\ble_db.o: ..\..\..\Middlewares\ST\Bluetooth_LE\Inc\bluenrg_lp_api.h
 .\objects\ble_db.o: ..\..\..\Middlewares\ST\Bluetooth_LE\Inc\bluenrg_lp_gatt.h
 .\objects\ble_db.o: ..\..\..\Middlewares\ST\Bluetooth_LE\Inc\ble_status.h

@@ -1,4 +1,4 @@
-.\objects\ble_it.o: ..\..\Src\ble\ble_it.c
+.\objects\ble_it.o: ..\..\periphers\ble_it.c
 .\objects\ble_it.o: ..\..\..\Middlewares\ST\Bluetooth_LE\Inc\bluenrg_lp_stack.h
 .\objects\ble_it.o: D:\MDK5\ARM\ARMCC\Bin\..\include\stdint.h
 .\objects\ble_it.o: ..\..\..\Middlewares\ST\Bluetooth_LE\Inc\ble_status.h
@@ -19,7 +19,7 @@
 .\objects\ble_it.o: ..\..\..\Middlewares\ST\hal\Inc\system_util.h
 .\objects\ble_it.o: ..\..\..\Drivers\CMSIS\Device\ST\BlueNRG_LP\Include\system_BlueNRG_LP.h
 .\objects\ble_it.o: ..\..\..\Drivers\CMSIS\Device\ST\BlueNRG_LP\Include\bluenrg_lpx.h
-.\objects\ble_it.o: ..\..\Inc\ble\bluenrg_lp_hal_conf.h
+.\objects\ble_it.o: ..\..\periphers\bluenrg_lp_hal_conf.h
 .\objects\ble_it.o: ..\..\..\Drivers\Peripherals_Drivers\inc\rf_driver_hal_dma.h
 .\objects\ble_it.o: ..\..\..\Drivers\Peripherals_Drivers\inc\rf_driver_hal_def.h
 .\objects\ble_it.o: ..\..\..\Drivers\CMSIS\Device\ST\BlueNRG_LP\Include\bluenrg_lpx.h
@@ -84,9 +84,9 @@
 .\objects\ble_it.o: D:\MDK5\ARM\ARMCC\Bin\..\include\math.h
 .\objects\ble_it.o: ..\..\..\Drivers\BSP\Components\lps22hh_STdC\driver\lps22hh_reg.h
 .\objects\ble_it.o: D:\MDK5\ARM\ARMCC\Bin\..\include\stdio.h
-.\objects\ble_it.o: ..\..\Inc\ble\ble_it.h
-.\objects\ble_it.o: ..\..\Inc\ble\ble_init.h
-.\objects\ble_it.o: ..\..\Inc\ble\ble_state.h
-.\objects\ble_it.o: ..\..\Inc\usart\usart_init.h
-.\objects\ble_it.o: ..\..\Inc\flash\flash.h
-.\objects\ble_it.o: ..\..\Inc\AT\at.h
+.\objects\ble_it.o: ..\..\periphers\ble_it.h
+.\objects\ble_it.o: ..\..\periphers\ble_init.h
+.\objects\ble_it.o: ..\..\periphers\ble_state.h
+.\objects\ble_it.o: ..\..\periphers\usart_init.h
+.\objects\ble_it.o: ..\..\periphers\flash.h
+.\objects\ble_it.o: ..\..\protocols\at.h

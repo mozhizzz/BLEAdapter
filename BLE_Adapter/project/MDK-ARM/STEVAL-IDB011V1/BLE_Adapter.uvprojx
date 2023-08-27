@@ -337,9 +337,9 @@
             <v6Rtti>0</v6Rtti>
             <VariousControls>
               <MiscControls></MiscControls>
-              <Define>USE_FULL_LL_DRIVER STEVAL_IDB011V1 CONFIG_DEVICE_BLUENUSE_HAL_DRIVER STEVAL_IDB011V1 CONFIG_DEVICE_BLUENRG_LP CONFIG_HW_SMPS_10uH CONFIG_HW_HSE_TUNE=32 CONFIG_HW_LS_XTAL USE_FULL_LL_DRIVER STEVAL_IDB011V1 CONFIG_DEVICE_BLUENRG_LP CONFIG_HW_SMPS_10uH CONFIG_HW_HSE_TUNE=32 USER_BUTTON=BSP_PUSH1 CONFIG_HW_LS_XTAL BLE_STACK_CUSTOM_CONF SECURITY_MODE=JUST_WORKS</Define>
+              <Define>USE_FULL_LL_DRIVER STEVAL_IDB011V1 CONFIG_DEVICE_BLUENUSE_HAL_DRIVER STEVAL_IDB011V1 CONFIG_DEVICE_BLUENRG_LP CONFIG_HW_SMPS_10uH CONFIG_HW_HSE_TUNE=32 CONFIG_HW_LS_RO USE_FULL_LL_DRIVER STEVAL_IDB011V1 CONFIG_DEVICE_BLUENRG_LP CONFIG_HW_SMPS_10uH CONFIG_HW_HSE_TUNE=32 USER_BUTTON=BSP_PUSH1 CONFIG_HW_LS_RO BLE_STACK_CUSTOM_CONF SECURITY_MODE=JUST_WORKS</Define>
               <Undefine></Undefine>
-              <IncludePath>..\..\..\Drivers\Peripherals_Drivers\inc;..\..\..\Drivers\CMSIS\Device\ST\BlueNRG_LP\Include;..\..\..\Middlewares\ST\hal\Inc;..\..\..\Middlewares\ST\PKAMGR\Inc;..\..\..\Middlewares\ST\RNGMGR\Inc;..\..\..\Middlewares\ST\AESMGR\Inc;..\..\..\Middlewares\ST\BLECNTR\Inc;..\..\..\Drivers\CMSIS\Include;../../../Drivers/BSP/STEVAL-IDB011V1/Inc;..\..\..\Drivers\BSP\Common\Inc;..\..\..\Drivers\BSP\Components\lps22hh_STdC\driver;..\..\..\Drivers\BSP\Components\lsm6dsox_STdC\driver;..\..\..\Middlewares\ST\BLE_Application\layers_inc;..\..\..\Middlewares\ST\Bluetooth_LE\Inc;..\..\..\Middlewares\ST\NVMDB\Inc;..\..\..\Middlewares\ST\BLE_Application\OTA\inc;..\..\..\Middlewares\ST\BLE_Application\Profiles\Inc;..\..\..\Middlewares\ST\cryptolib\inc;..\..\..\Middlewares\ST\cryptolib\inc\Common;..\..\..\Middlewares\ST\cryptolib\inc\AES;..\..\Inc\ble;..\..\Inc\usart;..\..\Inc\flash;..\..\Inc\AT;..\..\..\Middlewares\ST\BLE_Application\Profile_Central\Inc;..\..\Inc\iwdg;..\..\..\Middlewares\ST\FreeRTOS\Source\include;..\..\Inc;..\..\..\Middlewares\ST\FreeRTOS\Source\portable\RVDS\ARM_CM0</IncludePath>
+              <IncludePath>..\..\..\Drivers\Peripherals_Drivers\inc;..\..\..\Drivers\CMSIS\Device\ST\BlueNRG_LP\Include;..\..\..\Middlewares\ST\hal\Inc;..\..\..\Middlewares\ST\PKAMGR\Inc;..\..\..\Middlewares\ST\RNGMGR\Inc;..\..\..\Middlewares\ST\AESMGR\Inc;..\..\..\Middlewares\ST\BLECNTR\Inc;..\..\..\Drivers\CMSIS\Include;../../../Drivers/BSP/STEVAL-IDB011V1/Inc;..\..\..\Drivers\BSP\Common\Inc;..\..\..\Drivers\BSP\Components\lps22hh_STdC\driver;..\..\..\Drivers\BSP\Components\lsm6dsox_STdC\driver;..\..\..\Middlewares\ST\BLE_Application\layers_inc;..\..\..\Middlewares\ST\Bluetooth_LE\Inc;..\..\..\Middlewares\ST\NVMDB\Inc;..\..\..\Middlewares\ST\BLE_Application\OTA\inc;..\..\..\Middlewares\ST\BLE_Application\Profiles\Inc;..\..\..\Middlewares\ST\cryptolib\inc;..\..\..\Middlewares\ST\cryptolib\inc\Common;..\..\..\Middlewares\ST\cryptolib\inc\AES;..\..\..\Middlewares\ST\BLE_Application\Profile_Central\Inc;..\..\..\Middlewares\ST\FreeRTOS\Source\include;..\..\..\Middlewares\ST\FreeRTOS\Source\portable\RVDS\ARM_CM0;..\..\application;..\..\periphers;..\..\protocols;..\..\RTT</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -381,57 +381,22 @@
       </TargetOption>
       <Groups>
         <Group>
-          <GroupName>User</GroupName>
+          <GroupName>App</GroupName>
           <Files>
             <File>
               <FileName>main.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\Src\main.c</FilePath>
+              <FilePath>..\..\application\main.c</FilePath>
             </File>
             <File>
-              <FileName>ble_it.c</FileName>
+              <FileName>tasks.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\Src\ble\ble_it.c</FilePath>
+              <FilePath>..\..\application\tasks.c</FilePath>
             </File>
             <File>
-              <FileName>ble_init.c</FileName>
+              <FileName>bluenrg_lp_it.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\Src\ble\ble_init.c</FilePath>
-            </File>
-            <File>
-              <FileName>ble_tick.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\..\Src\ble\ble_tick.c</FilePath>
-            </File>
-            <File>
-              <FileName>ble_db.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\..\Src\ble\ble_db.c</FilePath>
-            </File>
-            <File>
-              <FileName>usart_init.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\..\Src\usart\usart_init.c</FilePath>
-            </File>
-            <File>
-              <FileName>usart_it.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\..\Src\usart\usart_it.c</FilePath>
-            </File>
-            <File>
-              <FileName>flash.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\..\Src\flash\flash.c</FilePath>
-            </File>
-            <File>
-              <FileName>at.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\..\Src\AT\at.c</FilePath>
-            </File>
-            <File>
-              <FileName>iwdg_init.c</FileName>
-              <FileType>1</FileType>
-              <FilePath>..\..\Src\iwdg\iwdg_init.c</FilePath>
+              <FilePath>..\..\application\bluenrg_lp_it.c</FilePath>
             </File>
           </Files>
         </Group>
@@ -1018,9 +983,67 @@
               <FilePath>..\..\..\Middlewares\ST\FreeRTOS\Source\portable\RVDS\ARM_CM0\port.c</FilePath>
             </File>
             <File>
-              <FileName>heap_5.c</FileName>
+              <FileName>heap_2.c</FileName>
               <FileType>1</FileType>
-              <FilePath>..\..\..\Middlewares\ST\FreeRTOS\Source\portable\MemMang\heap_5.c</FilePath>
+              <FilePath>..\..\..\Middlewares\ST\FreeRTOS\Source\portable\MemMang\heap_2.c</FilePath>
+            </File>
+          </Files>
+        </Group>
+        <Group>
+          <GroupName>Protocols</GroupName>
+        </Group>
+        <Group>
+          <GroupName>Periphers</GroupName>
+          <Files>
+            <File>
+              <FileName>uart.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\periphers\uart.c</FilePath>
+            </File>
+            <File>
+              <FileName>dma.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\periphers\dma.c</FilePath>
+            </File>
+            <File>
+              <FileName>ble.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\periphers\ble.c</FilePath>
+            </File>
+            <File>
+              <FileName>ble_service.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\periphers\ble_service.c</FilePath>
+            </File>
+            <File>
+              <FileName>ble_event.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\periphers\ble_event.c</FilePath>
+            </File>
+          </Files>
+        </Group>
+        <Group>
+          <GroupName>RTT</GroupName>
+          <Files>
+            <File>
+              <FileName>SEGGER_RTT.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\RTT\SEGGER_RTT.c</FilePath>
+            </File>
+            <File>
+              <FileName>SEGGER_RTT_printf.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\RTT\SEGGER_RTT_printf.c</FilePath>
+            </File>
+          </Files>
+        </Group>
+        <Group>
+          <GroupName>log</GroupName>
+          <Files>
+            <File>
+              <FileName>log.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\application\log.c</FilePath>
             </File>
           </Files>
         </Group>

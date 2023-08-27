@@ -1,4 +1,4 @@
-.\objects\usart_it.o: ..\..\Src\usart\usart_it.c
+.\objects\usart_it.o: ..\..\periphers\usart_it.c
 .\objects\usart_it.o: D:\MDK5\ARM\ARMCC\Bin\..\include\string.h
 .\objects\usart_it.o: ..\..\..\Drivers\Peripherals_Drivers\inc\rf_driver_hal.h
 .\objects\usart_it.o: ..\..\..\Drivers\Peripherals_Drivers\inc\rf_driver_ll_system.h
@@ -14,7 +14,7 @@
 .\objects\usart_it.o: ..\..\..\Middlewares\ST\hal\Inc\compiler.h
 .\objects\usart_it.o: ..\..\..\Drivers\CMSIS\Device\ST\BlueNRG_LP\Include\system_BlueNRG_LP.h
 .\objects\usart_it.o: ..\..\..\Drivers\CMSIS\Device\ST\BlueNRG_LP\Include\bluenrg_lpx.h
-.\objects\usart_it.o: ..\..\Inc\ble\bluenrg_lp_hal_conf.h
+.\objects\usart_it.o: ..\..\periphers\bluenrg_lp_hal_conf.h
 .\objects\usart_it.o: ..\..\..\Drivers\Peripherals_Drivers\inc\rf_driver_hal_dma.h
 .\objects\usart_it.o: ..\..\..\Drivers\Peripherals_Drivers\inc\rf_driver_hal_def.h
 .\objects\usart_it.o: ..\..\..\Drivers\CMSIS\Device\ST\BlueNRG_LP\Include\bluenrg_lpx.h
@@ -74,6 +74,6 @@
 .\objects\usart_it.o: D:\MDK5\ARM\ARMCC\Bin\..\include\stdio.h
 .\objects\usart_it.o: ../../../Drivers/BSP/STEVAL-IDB011V1/Inc/bluenrg_lp_evb_mic.h
 .\objects\usart_it.o: ../../../Drivers/BSP/STEVAL-IDB011V1/Inc/bluenrg_lp_evb_io.h
-.\objects\usart_it.o: ..\..\Inc\usart\usart_init.h
-.\objects\usart_it.o: ..\..\Inc\usart\usart_it.h
-.\objects\usart_it.o: ..\..\Inc\AT\at.h
+.\objects\usart_it.o: ..\..\periphers\usart_init.h
+.\objects\usart_it.o: ..\..\periphers\usart_it.h
+.\objects\usart_it.o: ..\..\protocols\at.h

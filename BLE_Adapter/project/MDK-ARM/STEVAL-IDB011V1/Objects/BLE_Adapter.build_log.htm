@@ -22,17 +22,18 @@ Dialog DLL:      TARMCM1.DLL V1.14.3.0
  
 <h2>Project:</h2>
 D:\work\BLEAdapter\BLE_Adapter\project\MDK-ARM\STEVAL-IDB011V1\BLE_Adapter.uvprojx
-Project File Date:  08/06/2023
+Project File Date:  08/27/2023
 
 <h2>Output:</h2>
 *** Using Compiler 'V5.06 update 7 (build 960)', folder: 'D:\MDK5\ARM\ARMCC\Bin'
 Build target 'BLE_Adapter'
-compiling main.c...
-..\..\Src\main.c(100): warning:  #177-D: variable "ret"  was declared but never referenced
-  	tBleStatus ret;
-..\..\Src\main.c: 1 warning, 0 errors
+Note: source file '..\..\..\Middlewares\ST\FreeRTOS\Source\tasks.c' - object file renamed from '.\Objects\tasks.o' to '.\Objects\tasks_1.o'.
+compiling ble.c...
+..\..\periphers\ble.c(25): warning:  #550-D: variable "Timer_expired"  was set but never used
+  static uint8_t Timer_expired;
+..\..\periphers\ble.c: 1 warning, 0 errors
 linking...
-Program Size: Code=151696 RO-data=2152 RW-data=1476 ZI-data=61504  
+Program Size: Code=16072 RO-data=356 RW-data=828 ZI-data=13484  
 FromELF: creating hex file...
 ".\Objects\BLE_Adapter.axf" - 0 Error(s), 1 Warning(s).
 
@@ -47,7 +48,7 @@ Package Vendor: Keil
   D:\MDK5\Keil\STBlueNRG-LP_DFP\3.0.0\Drivers\CMSIS\Device\ST\BlueNRG_LP\Include
 
 <h2>Collection of Component Files used:</h2>
-Build Time Elapsed:  00:00:03
+Build Time Elapsed:  00:00:02
 </pre>
 </body>
 </html>

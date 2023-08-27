@@ -1,0 +1,12 @@
+{
+    "files.associations": {
+        "ble.h": "c",
+        "ble_service.h": "c",
+        "ble_config.h": "c",
+        "dma.h": "c",
+        "uart.h": "c",
+        "tasks.h": "c",
+        "crash_handler.h": "c",
+        "gap_profile.h": "c"
+    }
+}

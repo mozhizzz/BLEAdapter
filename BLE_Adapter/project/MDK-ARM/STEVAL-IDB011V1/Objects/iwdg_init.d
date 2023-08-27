@@ -1,4 +1,4 @@
-.\objects\iwdg_init.o: ..\..\Src\iwdg\iwdg_init.c
+.\objects\iwdg_init.o: ..\..\periphers\iwdg_init.c
 .\objects\iwdg_init.o: ..\..\..\Drivers\Peripherals_Drivers\inc\rf_driver_hal.h
 .\objects\iwdg_init.o: ..\..\..\Drivers\Peripherals_Drivers\inc\rf_driver_ll_system.h
 .\objects\iwdg_init.o: ..\..\..\Drivers\CMSIS\Device\ST\BlueNRG_LP\Include\bluenrg_lpx.h
@@ -13,7 +13,7 @@
 .\objects\iwdg_init.o: ..\..\..\Middlewares\ST\hal\Inc\compiler.h
 .\objects\iwdg_init.o: ..\..\..\Drivers\CMSIS\Device\ST\BlueNRG_LP\Include\system_BlueNRG_LP.h
 .\objects\iwdg_init.o: ..\..\..\Drivers\CMSIS\Device\ST\BlueNRG_LP\Include\bluenrg_lpx.h
-.\objects\iwdg_init.o: ..\..\Inc\ble\bluenrg_lp_hal_conf.h
+.\objects\iwdg_init.o: ..\..\periphers\bluenrg_lp_hal_conf.h
 .\objects\iwdg_init.o: ..\..\..\Drivers\Peripherals_Drivers\inc\rf_driver_hal_dma.h
 .\objects\iwdg_init.o: ..\..\..\Drivers\Peripherals_Drivers\inc\rf_driver_hal_def.h
 .\objects\iwdg_init.o: ..\..\..\Drivers\CMSIS\Device\ST\BlueNRG_LP\Include\bluenrg_lpx.h
@@ -44,4 +44,4 @@
 .\objects\iwdg_init.o: ..\..\..\Drivers\Peripherals_Drivers\inc\rf_driver_hal_tim_ex.h
 .\objects\iwdg_init.o: ..\..\..\Drivers\Peripherals_Drivers\inc\rf_driver_hal_uart.h
 .\objects\iwdg_init.o: ..\..\..\Drivers\Peripherals_Drivers\inc\rf_driver_hal_uart_ex.h
-.\objects\iwdg_init.o: ..\..\Inc\iwdg\iwdg_init.h
+.\objects\iwdg_init.o: ..\..\periphers\iwdg_init.h
