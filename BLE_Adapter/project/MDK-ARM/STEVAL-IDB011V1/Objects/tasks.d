@@ -14,3 +14,4 @@
 .\objects\tasks.o: ..\..\..\Middlewares\ST\FreeRTOS\Source\include\semphr.h
 .\objects\tasks.o: ..\..\application\tasks.h
 .\objects\tasks.o: ..\..\application\log.h
+.\objects\tasks.o: ..\..\periphers\ble_event.h

@@ -5,19 +5,41 @@
 
 #include "tasks.h"
 #include "log.h"
+#include "ble_event.h"
+
+
+QueueHandle_t bleEventQueue;
 
 
 static void ble_evt_handle_task( void *pvParameters );
 static void usart1_receive_handle_task( void *pvParameters );
+static void ble_event_handle( ble_event_info_t ble_event_info );
+
+
+static void ble_event_handle( ble_event_info_t ble_event_info )
+{
+
+}
 
 
 static void ble_evt_handle_task( void *pvParameters )
 {
+    BaseType_t xStatus;
+    ble_event_info_t ble_event_info;
+
     printLog( "ble event handle task start!\n" );
+    bleEventQueue = xQueueCreate(BLE_EVENT_QUEUE_LENGTH, sizeof(ble_event_info_t));
+    if ( bleEventQueue == 0 ) {
+      printLog( "ble event queue created fail. " );
+    }
 
     while(1)
     {
-        //vTaskDelay(1);
+        xStatus = xQueueReceive(bleEventQueue, &ble_event_info, portMAX_DELAY);
+        if (xStatus == pdPASS) {
+            // TODO ble event handle
+            ble_event_handle( ble_event_info );
+        } 
     }
 }
 

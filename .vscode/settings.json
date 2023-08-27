@@ -7,6 +7,7 @@
         "uart.h": "c",
         "tasks.h": "c",
         "crash_handler.h": "c",
-        "gap_profile.h": "c"
+        "gap_profile.h": "c",
+        "ble_event.h": "c"
     }
 }
