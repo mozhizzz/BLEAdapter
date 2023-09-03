@@ -154,18 +154,18 @@ void vApplicationGetTimerTaskMemory( StaticTask_t **ppxTimerTaskTCBBuffer,
 
 extern void System_Task_Init(void)
 {
-    BaseType_t ret;
+  //   BaseType_t ret;
 
-	ret = xTaskCreate( ble_evt_handle_task, "bleEvtTask", 650, NULL, BLE_EVT_HANDLE_TASK_PRIORITY, NULL );
-    if ( ret != pdPASS) {
-			printLog("BLE evt handle task create fail: 0x%x.", ret);
-    }
+	// ret = xTaskCreate( ble_evt_handle_task, "bleEvtTask", 650, NULL, BLE_EVT_HANDLE_TASK_PRIORITY, NULL );
+  //   if ( ret != pdPASS) {
+	// 		printLog("BLE evt handle task create fail: 0x%x.", ret);
+  //   }
 
-	ret = xTaskCreate( usart1_receive_handle_task, "usart1ReceiveTask", 350, NULL, USART1_RECEIVE_HANDLE_PRIORITY, NULL );
-    if ( ret != pdPASS) {
-        printLog("usart1 receive handle task create fail: 0x%x.", ret);
-    }
+	// ret = xTaskCreate( usart1_receive_handle_task, "usart1ReceiveTask", 350, NULL, USART1_RECEIVE_HANDLE_PRIORITY, NULL );
+  //   if ( ret != pdPASS) {
+  //       printLog("usart1 receive handle task create fail: 0x%x.", ret);
+  //   }
     
 
-    vTaskStartScheduler();
+  //   vTaskStartScheduler();
 }
