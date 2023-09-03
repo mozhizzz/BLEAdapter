@@ -179,10 +179,10 @@ ARM Macro Assembler    Page 3
   122 000000B0                 END
 Command Line: --debug --xref --cpreproc --diag_suppress=9931 --cpu=Cortex-M0+ -
 -apcs=interwork --depend=.\objects\osal_memcpy.d -o.\objects\osal_memcpy.o -ID:
-\MDK5\Keil\STBlueNRG-LP_DFP\3.0.0\Drivers\CMSIS\Device\ST\BlueNRG_LP\Include --
-predefine="__UVISION_VERSION SETA 534" --predefine="CONFIG_DEVICE_BLUENRG_LP SE
-TA 1" --list=.\listings\osal_memcpy.lst ..\..\..\Middlewares\ST\hal\Src\osal_me
-mcpy.s
+\keil\Pack\Keil\STBlueNRG-LP_DFP\3.0.0\Drivers\CMSIS\Device\ST\BlueNRG_LP\Inclu
+de --predefine="__UVISION_VERSION SETA 538" --predefine="CONFIG_DEVICE_BLUENRG_
+LP SETA 1" --list=.\listings\osal_memcpy.lst ..\..\..\Middlewares\ST\hal\Src\os
+al_memcpy.s
 
 
 

@@ -119,10 +119,10 @@ ARM Macro Assembler    Page 2
    68 00000044                 END
 Command Line: --debug --xref --cpreproc --diag_suppress=9931 --cpu=Cortex-M0+ -
 -apcs=interwork --depend=.\objects\blue_unit_conversion.d -o.\objects\blue_unit
-_conversion.o -ID:\MDK5\Keil\STBlueNRG-LP_DFP\3.0.0\Drivers\CMSIS\Device\ST\Blu
-eNRG_LP\Include --predefine="__UVISION_VERSION SETA 534" --predefine="CONFIG_DE
-VICE_BLUENRG_LP SETA 1" --list=.\listings\blue_unit_conversion.lst ..\..\..\Mid
-dlewares\ST\hal\Src\blue_unit_conversion.s
+_conversion.o -ID:\keil\Pack\Keil\STBlueNRG-LP_DFP\3.0.0\Drivers\CMSIS\Device\S
+T\BlueNRG_LP\Include --predefine="__UVISION_VERSION SETA 538" --predefine="CONF
+IG_DEVICE_BLUENRG_LP SETA 1" --list=.\listings\blue_unit_conversion.lst ..\..\.
+.\Middlewares\ST\hal\Src\blue_unit_conversion.s
 
 
 

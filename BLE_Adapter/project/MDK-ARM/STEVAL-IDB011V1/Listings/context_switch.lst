@@ -141,10 +141,10 @@ ARM Macro Assembler    Page 3
               00000000 
 Command Line: --debug --xref --cpreproc --diag_suppress=9931 --cpu=Cortex-M0+ -
 -apcs=interwork --depend=.\objects\context_switch.d -o.\objects\context_switch.
-o -ID:\MDK5\Keil\STBlueNRG-LP_DFP\3.0.0\Drivers\CMSIS\Device\ST\BlueNRG_LP\Incl
-ude --predefine="__UVISION_VERSION SETA 534" --predefine="CONFIG_DEVICE_BLUENRG
-_LP SETA 1" --list=.\listings\context_switch.lst ..\..\..\Middlewares\ST\hal\Sr
-c\context_switch.s
+o -ID:\keil\Pack\Keil\STBlueNRG-LP_DFP\3.0.0\Drivers\CMSIS\Device\ST\BlueNRG_LP
+\Include --predefine="__UVISION_VERSION SETA 538" --predefine="CONFIG_DEVICE_BL
+UENRG_LP SETA 1" --list=.\listings\context_switch.lst ..\..\..\Middlewares\ST\h
+al\Src\context_switch.s
 
 
 

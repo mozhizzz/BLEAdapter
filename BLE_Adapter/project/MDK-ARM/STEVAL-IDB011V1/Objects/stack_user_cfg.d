@@ -1,9 +1,0 @@
-.\objects\stack_user_cfg.o: ..\..\..\Middlewares\ST\Bluetooth_LE\src\stack_user_cfg.c
-.\objects\stack_user_cfg.o: ..\..\..\Middlewares\ST\Bluetooth_LE\Inc\stack_user_cfg.h
-.\objects\stack_user_cfg.o: ..\..\..\Middlewares\ST\Bluetooth_LE\Inc\bluenrg_lp_api.h
-.\objects\stack_user_cfg.o: ..\..\..\Middlewares\ST\Bluetooth_LE\Inc\bluenrg_lp_gatt.h
-.\objects\stack_user_cfg.o: ..\..\..\Middlewares\ST\Bluetooth_LE\Inc\ble_status.h
-.\objects\stack_user_cfg.o: D:\MDK5\ARM\ARMCC\Bin\..\include\stdint.h
-.\objects\stack_user_cfg.o: ..\..\..\Middlewares\ST\hal\Inc\system_util.h
-.\objects\stack_user_cfg.o: ..\..\..\Middlewares\ST\hal\Inc\compiler.h
-.\objects\stack_user_cfg.o: ..\..\..\Middlewares\ST\hal\Inc\system_util.h
